@@ -1,5 +1,7 @@
+<p><input ng-model="searchText.name" placeholder="Enter keyword for searching"></p>
+
 <ul>
-  <li ng-repeat="feature in mainCtrl.data">
+  <li ng-repeat="feature in mainCtrl.data | filter: searchText">
     Name: {{feature.name}} <br />
     URL: <span class="blue">{{feature.url}}</span>
   </li>

@@ -2,6 +2,16 @@ body {
   color: #333;
 }
 
+p {
+  margin: 24px 0 24px 40px;
+}
+
+input {
+  width: 280px;
+  padding: 8px;
+}
+
 .blue {
   color: blue;
 }
+
